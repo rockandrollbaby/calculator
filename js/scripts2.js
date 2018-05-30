@@ -1,6 +1,6 @@
 $(document).ready(function(){
     // Show the Modal on load
-    $("#exampleModal").modal("show");
+    // $("#exampleModal").modal("show");
 
     // Hide the Modal
     $(".btn btn-primary").click(function(){
