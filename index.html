@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
      <link href="css/styles.css" rel="stylesheet" type="text/css">
      <script src="js/jquery-3.3.1.js"></script>
      <script src="js/scripts.js"></script>
@@ -10,8 +10,27 @@
   </head>
   <body>
     <div class="container">
-          <h1>Calculator</h1>
-          <form id="add">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <h1>Calculator</h1>
+      <form id="add">
             <div class="form-group">
               <label for="add1">1st number:</label>
               <input id="add1" class="form-control" type="text">
@@ -22,9 +41,9 @@
             </div>
             <button type="submit" class="btn">Add!</button>
           </form>
-          <div id="output">
-         </div>
-         <form id="subtract">
+      <div id="output">
+      </div>
+      <form id="subtract">
            <div class="form-group">
              <label for="subtract1">1st number:</label>
              <input id="subtract1" class="form-control" type="text">
@@ -35,33 +54,33 @@
            </div>
            <button type="submit" class="btn">Subtract!</button>
          </form>
-         <div id="output2">
-        </div>
-        <form id="multiply">
-          <div class="form-group">
-            <label for="multiply1">1st number:</label>
-            <input id="multiply1" class="form-control" type="text">
-          </div>
-          <div class="form-group">
-            <label for="multiply2">2nd number:</label>
-            <input id="multiply2" class="form-control" type="text">
-          </div>
-          <button type="submit" class="btn">Multiply!</button>
-        </form>
-        <div id="output3">
-       </div>
-       <form id="divide">
-         <div class="form-group">
-           <label for="divide1">1st number:</label>
-           <input id="divide1" class="form-control" type="text">
-         </div>
-         <div class="form-group">
-           <label for="divide2">2nd number:</label>
-           <input id="divide2" class="form-control" type="text">
-         </div>
-         <button type="submit" class="btn">Divide!</button>
-       </form>
-       <div id="output4">
+      <div id="output2">
       </div>
+      <form id="multiply">
+        <div class="form-group">
+          <label for="multiply1">1st number:</label>
+          <input id="multiply1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="multiply2">2nd number:</label>
+          <input id="multiply2" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Multiply!</button>
+      </form>
+      <div id="output3">
+      </div>
+      <form id="divide">
+       <div class="form-group">
+         <label for="divide1">1st number:</label>
+         <input id="divide1" class="form-control" type="text">
+       </div>
+       <div class="form-group">
+         <label for="divide2">2nd number:</label>
+         <input id="divide2" class="form-control" type="text">
+       </div>
+       <button type="submit" class="btn">Divide!</button>
+     </form>
+      <div id="output4">
+    </div>
   </body>
 </html>
